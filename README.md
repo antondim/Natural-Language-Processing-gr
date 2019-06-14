@@ -1,2 +1,1 @@
-# nlp
-Part containing nlp-graph files
+# Greek Language NLP tools

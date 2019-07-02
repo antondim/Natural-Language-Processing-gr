@@ -28,6 +28,6 @@ The second one consists of difficult syntactic combinations, extracted from list
  
  ## LICENSE
  
- [GNU GPLv3]
+ [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
 
 

@@ -1,5 +1,4 @@
 function [ termsList ] = textCleanerGR( termsList, sigmaResolve_mode )
-
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 % Function that "cleans" a greek parsed text file.
 %

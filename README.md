@@ -9,11 +9,11 @@ Files containing:
 
 Matlab implementation of greek nlp tools.
 
-  a. Lexer (parser+tokenizer
-  b. Word frequency counter
-  c. Text cleaning tools for greek texts
-  d. Sentence Splitter 
-  e. Suffix-based POS-tagger
-  f. Stemmer (based on Spyridon Saroukos paper)
+  1. Lexer (parser+tokenizer
+  2. Word frequency counter
+  3. Text cleaning tools for greek texts
+  4. Sentence Splitter 
+  5. Suffix-based POS-tagger
+  6. Stemmer (based on Spyridon Saroukos paper)
 
 

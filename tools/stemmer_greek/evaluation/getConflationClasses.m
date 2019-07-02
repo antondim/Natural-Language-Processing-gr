@@ -1,4 +1,4 @@
-function [ CCMV,conflationClasses ] = getConflationClasses( vocabulary,stems )
+function [ CCMV,conflationClasses ] = getConflationClasses( tokens,stems )
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Evaluation Metrics for stemmers' strength (Frakes Metrics)
@@ -6,8 +6,8 @@ function [ CCMV,conflationClasses ] = getConflationClasses( vocabulary,stems )
 % Conflation class is a group of words, that share the same stem
 %
 % Input:
-%   a) Vocabulary (cell array of unique tokens, extracted from processed text)
-%   b) Stem of each vocabulary word
+%   a) tokens (cell array of tokens, extracted from processed text via lexer)
+%   b) Stem of each token word
 % Output:
 %  a) cell arrays (classes), with matching words in them
 %  b) CCMV, which is the average number of words that are found in each conflation class
@@ -24,7 +24,7 @@ conflationClasses={};
 uniqueStems = unique(stems);
 
 for i=1:length(uniqueStems)
-    conflationClasses{i} = vocabulary(find(ismember(stems,uniqueStems(i))));
+    conflationClasses{i} = tokens(find(ismember(stems,uniqueStems(i))));
 end
 
 for i=1:length(uniqueStems)

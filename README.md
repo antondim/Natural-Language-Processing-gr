@@ -20,6 +20,8 @@ Matlab implementation of greek NLP tools.
 We present two types of analogy tests for greek embeddings (word2vec).
 The first one, is a common analogy '.txt' file, which is similar to Google's free analogy test. 
 The second one consists of difficult syntactic combinations, extracted from lists containing 25 adjectives and 25 verbs and 18 of their different forms (based on greek grammar).
+
+###Both lists are fully extensible
  
  1. Common Analogy test (common-gr-analogies.txt)
  2. Heavy Syntactic Analogy tests

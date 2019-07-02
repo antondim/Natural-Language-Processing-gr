@@ -1,3 +1,5 @@
+function [token] = unstressWord(token)
+
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Function that removes the 'tone' mark from any greek word 
 %
@@ -11,11 +13,9 @@
 %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 
-function [token] = unstressWord(token)
-
         stressed_letters = ['ό','ύ','ί','ά','ή','έ','ώ','ΰ','ΐ'];
         unstressed_letters = ['ο','υ','ι','α','η','ε','ω','υ','ι'];
         
         [~,stress_indices] = ismember(token(:),stressed_letters(:));
         token(find(stress_indices~=0)) = unstressed_letters(stress_indices(stress_indices > 0));
-    end
+end

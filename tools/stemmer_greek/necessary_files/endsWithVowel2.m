@@ -1,3 +1,5 @@
+function [ out ] = endsWithVowel2(token)
+
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Function that checks if input's last letter is a vowel
 % except 'Υ'.
@@ -15,8 +17,6 @@
 % Part of stemmer script
 %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function [ out ] = endsWithVowel2(token)
 
 vowels = {'Α','Ε','Η','Ι','Ο','Ω'};
 

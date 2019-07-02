@@ -33,11 +33,11 @@ for i=1:length(conflationClasses)
     B = cellfun('length',conflationClasses{i}(1:wordsPerConfClass(i)));
     
     %calculate the Mean Hamming distance
-    meandistance = (sum(B(:)-length_of_stem)/wordsPerConfClass(i));
+    meanDistance = (sum(B(:)-length_of_stem)/wordsPerConfClass(i));
     
-    medianCalculationArray(i) = meandistance;
+    medianCalculationArray(i) = meanDistance;
     
-    SumOfAverages = SumOfAverages + meandistance;
+    SumOfAverages = SumOfAverages + meanDistance;
     
 end
 

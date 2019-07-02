@@ -9,8 +9,8 @@ function [ CCMV,conflationClasses ] = getConflationClasses( tokens,stems )
 %   a) tokens (cell array of tokens, extracted from processed text via lexer)
 %   b) Stem of each token word
 % Output:
-%  a) cell arrays (classes), with matching words in them
-%  b) CCMV, which is the average number of words that are found in each conflation class
+%  a) CCMV, which is the average number of words that are found in each conflation class
+%  b) cell arrays (classes), with matching words in them
 %
 % Author: Antonopoulos Dimitrios, 2018-2019
 %

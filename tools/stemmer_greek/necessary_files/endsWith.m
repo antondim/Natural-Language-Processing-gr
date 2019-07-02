@@ -6,6 +6,7 @@
 %
 % output: True (1) or False (0)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [output] = endsWith(token,list_of_suffixes_to_check)
 
         suffix_length = cellfun('length',list_of_suffixes_to_check);

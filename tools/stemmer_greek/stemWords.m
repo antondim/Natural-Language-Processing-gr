@@ -1,3 +1,5 @@
+function [stems,words_in_rules] = stemWords(termList)
+
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Stemmer for greek words
 %
@@ -12,8 +14,6 @@
 % Output : desirable stem
 %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function [stems,words_in_rules] = stemWords(termList)
 
 disp('Stemming...')
 

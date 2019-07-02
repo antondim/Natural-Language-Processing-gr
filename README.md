@@ -1,7 +1,7 @@
 # Natural Language Processing for greek language
 
   1. Matlab NLP tools .
-  2. Evaluation tests (analogies), for word embeddings extracted from "word2vec" algorithm, applied on greek training corpus.
+  2. Evaluation tests (analogies), for word embeddings extracted from Google's "word2vec" algorithm, applied on greek training corpus.
 
 ## Greek Language NLP tools
 
@@ -12,7 +12,7 @@ Matlab implementation of greek NLP tools.
   3. Text cleaning tools for greek texts
   4. Sentence Splitter 
   5. Suffix-based POS-tagger
-  6. Stemmer (based on Spyridon Saroukos paper[1])
+  6. Stemmer (based on Spyridon Saroukos paper [1])
   7. Stemmer evaluation files
   
  ## Greek word2vec embeddings evaluation files

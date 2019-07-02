@@ -1,4 +1,4 @@
-function [ unchangedWordsRatio ] = getUnchangedWordsRatio( vocabulary,stems )
+function [ unchangedWordsRatio ] = getUnchangedWordsRatio( tokens,stems )
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Evaluation Metrics for stemmers' strength
@@ -16,7 +16,7 @@ function [ unchangedWordsRatio ] = getUnchangedWordsRatio( vocabulary,stems )
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-unchangedWordsRatio = sum(ismember(vocabulary,stems))/length(vocabulary);
+unchangedWordsRatio = sum(ismember(tokens,stems))/length(tokens);
 
 end
 

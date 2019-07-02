@@ -1,3 +1,5 @@
+function [output] = endsWith(token,list_of_suffixes_to_check)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Function that checks the suffix of input token
 % looking into a suffix list (suffixesGR.m)
@@ -7,7 +9,6 @@
 % output: True (1) or False (0)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [output] = endsWith(token,list_of_suffixes_to_check)
 
         suffix_length = cellfun('length',list_of_suffixes_to_check);
         token_length = length(token);

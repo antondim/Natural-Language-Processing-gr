@@ -24,7 +24,7 @@ The second one consists of difficult syntactic combinations, extracted from list
 -Both tests are fully extensible
  
  1. Common Analogy test (common-gr-analogies.txt)
- 2. Heavy Syntactic Analogy tests
+ 2. Heavy Syntactic Analogies tests
  
  ## References
  [1] Saroukos, S., 2009. Enhancing a greek language stemmer-efficiency and accuracy improvements (Master's thesis).

@@ -6,7 +6,7 @@ function [ CCMV,conflationClasses ] = getConflationClasses( vocabulary,stems )
 % Conflation class is a group of words, that share the same stem
 %
 % Input:
-%   a) Vocabulary
+%   a) Vocabulary (cell array of unique tokens, extracted from processed text)
 %   b) Stem of each vocabulary word
 % Output:
 %  a) cell arrays (classes), with matching words in them

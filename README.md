@@ -12,7 +12,7 @@ Matlab implementation of greek NLP tools.
   3. Text cleaning tools for greek texts
   4. Sentence Splitter 
   5. Suffix-based POS-tagger
-  6. Stemmer (based on Spyridon Saroukos paper)
+  6. Stemmer (based on Spyridon Saroukos paper[1])
   7. Stemmer evaluation files
   
  ## Greek word2vec embeddings evaluation files
@@ -25,6 +25,9 @@ The second one consists of difficult syntactic combinations, extracted from list
  
  1. Common Analogy test (common-gr-analogies.txt)
  2. Heavy Syntactic Analogy tests
+ 
+ ## References
+ [1] Saroukos, S., 2009. Enhancing a greek language stemmer-efficiency and accuracy improvements (Master's thesis).
  
  ## LICENSE
  

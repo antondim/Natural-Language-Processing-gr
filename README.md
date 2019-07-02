@@ -1,11 +1,11 @@
 # Natural Language Processing for Greek language
 
   1. Matlab NLP tools .
-  2. Evaluation tests (analogies), for word embeddings extracted from Google's "word2vec" algorithm, applied on greek training corpus.
+  2. Evaluation tests (analogies), for word embeddings extracted from Google's "word2vec" algorithm, applied on Greek training corpus.
 
 ## Greek Language NLP tools
 
-Matlab implementation of greek NLP tools.
+Matlab implementation of Greek NLP tools.
 
   1. Lexer (parser + tokenizer)
   2. Word frequency counter
@@ -17,9 +17,9 @@ Matlab implementation of greek NLP tools.
   
  ## Greek word2vec embeddings evaluation files
  
-We present two types of analogy tests for greek embeddings (word2vec).
+We present two types of analogy tests for Greek embeddings (word2vec).
 The first one, is a common analogy '.txt' file, which is similar to Google's free analogy test. 
-The second one consists of difficult syntactic combinations, extracted from lists containing 25 adjectives and 25 verbs and 18 of their different forms (based on greek grammar).
+The second one consists of difficult syntactic combinations, extracted from lists containing 25 adjectives and 25 verbs and 18 of their different forms (based on Greek grammar).
 
 -Both tests are fully extensible
  

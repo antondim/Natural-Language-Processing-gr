@@ -1,4 +1,4 @@
-# Natural Language Processing for greek language
+# Natural Language Processing for Greek language
 
   1. Matlab NLP tools .
   2. Evaluation tests (analogies), for word embeddings extracted from Google's "word2vec" algorithm, applied on greek training corpus.

@@ -1,5 +1,3 @@
-function [uppercase_token,lower_letter_spots] = uppercaseModification(token)
-
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Function that finds the lowercase letters of word, keeps their
 % spot, and then replaces them with uppercase ones.
@@ -12,6 +10,8 @@ function [uppercase_token,lower_letter_spots] = uppercaseModification(token)
 % Part of stemmer script
 %
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function [uppercase_token,lower_letter_spots] = uppercaseModification(token)
 
 capital_letters={'Α','Β','Γ','Δ','Ε','Ζ','Η','Θ','Ι','Κ','Λ','Μ','Ν','Ξ','Ο','Π'...
     'Ρ','Σ','Τ','Υ','Φ','Χ','Ψ','Ω'};

@@ -26,6 +26,8 @@ The second one consists of difficult syntactic combinations, extracted from list
  1. Common Analogy test (common-gr-analogies.txt)
  2. Heavy Syntactic Analogy tests
  
+ ## LICENSE
  
+ [GNU GPLv3]
 
 
